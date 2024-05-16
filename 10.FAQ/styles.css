@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jersey+25+Charted&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+body .title {
+    font-family: "Dancing Script", sans-serif;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 10px 0px;
+}
+
+body .container {
+    width: 850px;
+    background-color: rgb(214, 208, 208);
+    padding: 10px 20px;
+}
+
+.question {
+    width: 100%;
+}
+
+.question .question-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .question-container .question-title {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.container .question-container .question-text {
+    background-color: white;
+    padding: 10px;
+}
+
+
+/* ilangin text sama plus minus */
+
+.minus {
+    display: none;
+}
+
+.show-btn .minus {
+    display: inline;
+}
+
+.show-btn .plus {
+    display: none;
+}
+
+.question-text{
+    display: none;
+}
+
+.show-btn .question-text{
+    display: block;
+}
+
+
+
+
+
